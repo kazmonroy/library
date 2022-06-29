@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Librory</div>
+      <div class="div">
+        <button class="btn open-modal">+ add book</button>
+      </div>
+    </nav>
+
+    <div class="modal">
+      <div class="modal-content">
+        <button class="close-form">x</button>
+        <form id="book-form">
+          <h1>Enter book info</h1>
+          <input type="text" placeholder="Title" id="title" />
+          <input type="text" placeholder="Author" id="author" />
+          <input type="text" placeholder="Pages" id="pages" />
+          <button
+            type="submit"
+            form="book-form"
+            value="submit"
+            class="btn submit-book"
+          >
+            Add Book
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="bookshelf"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
