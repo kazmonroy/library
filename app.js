@@ -5,6 +5,8 @@ const submitBook = document.querySelector(".submit-book");
 const form = document.querySelector("#book-form");
 
 openModalBtn.addEventListener("click", (e) => {
+  const modal = document.querySelector(".modal");
+
   modal.classList.add("active");
 });
 

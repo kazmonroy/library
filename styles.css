@@ -54,12 +54,14 @@ nav:first-child {
   opacity: 0;
   z-index: -1;
   transform: scale(1.1);
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .modal.active {
   opacity: 1;
-  z-index: 0;
+  z-index: 2;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 form {
