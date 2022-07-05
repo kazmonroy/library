@@ -260,3 +260,9 @@ form h1 {
     margin: 0 10px;
   }
 }
+
+@media (max-width: 450px) {
+  .search {
+    min-width: 100px;
+  }
+}
