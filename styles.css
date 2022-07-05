@@ -262,7 +262,18 @@ form h1 {
 }
 
 @media (max-width: 450px) {
-  .search {
-    min-width: 100px;
+  .ui-controls {
+    justify-content: center;
+  }
+  .search-bar {
+    display: none;
+  }
+
+  .btn-div {
+    margin-left: auto;
+  }
+
+  .open-modal {
+    justify-self: center;
   }
 }
