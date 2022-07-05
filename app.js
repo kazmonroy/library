@@ -62,7 +62,7 @@ class UI {
   }
 
   static showAlert(message, className) {
-    const nav = document.querySelector("nav");
+    const nav = document.querySelector(".user-controls");
     const alertDiv = document.createElement("div");
     const alertMessage = document.createElement("div");
 
@@ -112,11 +112,7 @@ class Store {
 
   static removeBook(title) {
     const books = Store.getBooks();
-    // books.forEach((book, index) => {
-    //   if (book.title === title) {
-    //     books.splice(index, 1);
-    //   }
-    // });
+
     books.splice(books.indexOf(title), 1);
 
     localStorage.setItem("books", JSON.stringify(books));
@@ -163,5 +159,4 @@ const bookshelf = document.querySelector(".bookshelf");
 bookshelf.addEventListener("click", (el) => {
   // Delete book from UI
   UI.deleteBook(el.target);
-  //Deletebook from localStorage
 });
