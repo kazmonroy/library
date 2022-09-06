@@ -1,6 +1,6 @@
 # Librory App
 
-This Librory App is a project part of the Full Stack JavaScript currticulum from TOP. This project helped me to sharp my JavaScript skills by applying Objects and understand deeper concepts such as Class constructors and static methods. 
+This Librory App is a project part of the Full Stack JavaScript curriculum from TOP. This project helped me to sharp my JavaScript skills by applying Objects and understand deeper concepts such as Class constructors and static methods. 
 
 ## 🛠️ Built with
 
